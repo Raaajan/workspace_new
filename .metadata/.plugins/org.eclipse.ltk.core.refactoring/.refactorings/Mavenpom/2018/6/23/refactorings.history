@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;MavenTest.CompanyName.ProjectName.AutomationPractice.TestBase&apos; to &apos;TestBase&apos;&#x0D;&#x0A;- Original project: &apos;Mavenpom&apos;&#x0D;&#x0A;- Original element: &apos;Mavenpom/src/test/java/MavenTest.CompanyName.ProjectName.AutomationPractice.TestBase&apos;&#x0D;&#x0A;- Renamed element: &apos;Mavenpom/src/test/java/TestBase&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;MavenTest.CompanyName.ProjectName.AutomationPractice.TestBase&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;MavenTest.CompanyName.ProjectName.AutomationPractice.TestBase" name="TestBase" qualified="false" references="true" stamp="1528044837617" textual="false" version="1.0"/>
+</session>

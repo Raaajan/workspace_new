@@ -1,0 +1,74 @@
+package ExcelReader;
+
+import java.io.FileInputStream;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excelread {
+	String path;
+	FileInputStream fis;
+	XSSFWorkbook workbook;
+	XSSFSheet sheet;
+
+	public Excelread(String path) {
+		path = this.path;
+
+		try {
+			fis = new FileInputStream(path);
+			workbook = new XSSFWorkbook(fis);
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public int countrow(String sheetname) {
+		try {
+			int rowcount = sheet.getLastRowNum();
+			return rowcount;
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public int countcolumn(String sheetname) {
+		try {
+			int columncount = sheet.getRow(0).getLastCellNum();
+			return columncount;
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+	}
+
+	public String getcelldata(String sheetname, String columnname, int rownum) {
+		try {
+			int columnnum = 0;
+			sheet = workbook.getSheet(sheetname);
+			countrow(sheetname);
+			int cc = countcolumn(sheetname);
+			for (int i = 0; i <= cc; i++) {
+				String columnvalue = sheet.getRow(0).getCell(i).toString();
+				if (columnvalue.equalsIgnoreCase(columnname)) {
+					System.out.println("cloumnnamefound");
+					columnnum = i;
+				}
+
+			}
+			String cellvalue = sheet.getRow(rownum).getCell(columnnum).toString();
+			return cellvalue;
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
+	}
+
+public static void main(String []args)
+{
+String path=System.getProperty("user.dir")+"\\src/test/java\\ConfigFile\\logincredential.xlsx";
+Excelread obj=new Excelread(path);
+String excelvalue=obj.getcelldata("Login", "email", 2);
+System.out.println(excelvalue);
+}

@@ -1,0 +1,19 @@
+<suite name="Suite-Listeners" parallel="none">
+ 
+ <listeners>
+ 
+ <listener class-name="data.Listeners"></listener>
+ 
+ </listeners>
+ 
+ <test name="Batch-Listeners">
+ 
+ <classes>
+ 
+ <class name="data.TestListeners" />
+ 
+ </classes>
+ 
+ </test> 
+ 
+</suite>

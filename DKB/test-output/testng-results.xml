@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20" started-at="2018-06-09T14:48:31Z" finished-at="2018-06-09T14:48:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20" started-at="2018-06-09T14:48:31Z" finished-at="2018-06-09T14:48:31Z">
+      <class name="dkb.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:dkb.NewTest@be92ad]" name="beforeSuite" is-config="true" duration-ms="22" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:dkb.NewTest@be92ad]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:dkb.NewTest@be92ad]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:dkb.NewTest@be92ad]" name="f" duration-ms="6" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dkb.NewTest@be92ad]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dkb.NewTest@be92ad]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:dkb.NewTest@be92ad]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:dkb.NewTest@be92ad]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-09T20:18:31Z" finished-at="2018-06-09T20:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:dkb.NewTest@be92ad]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-06-09T20:18:32Z" finished-at="2018-06-09T20:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- dkb.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

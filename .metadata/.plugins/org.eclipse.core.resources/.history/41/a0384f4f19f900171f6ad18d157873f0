@@ -1,0 +1,48 @@
+package practice;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Switch {
+
+	public static void main(String[] args) throws InterruptedException 
+	{
+		System.setProperty("webdriver.chrome.driver","E:\\automation\\chromedriver\\chromedriver.exe");
+		WebDriver wd= new ChromeDriver();
+		wd.get("http://toolsqa.wpengine.com/automation-practice-switch-windows/");
+		String mw= wd.getWindowHandle();
+		System.out.println("main window="+" "+mw);
+		WebElement we= wd.findElement(By.xpath("//*[text()='New Message Window']"));
+		we.click();
+		Set<String> allwin=wd.getWindowHandles();
+		System.out.println("all window="+" "+allwin);
+		for(String z:allwin)
+		{
+			if(z.equals(mw))
+			{
+				System.out.println("main window");
+			}
+			else
+			{
+				wd.switchTo().window(z);
+				System.out.println("child window");
+			}
+		}
+		
+		wd.manage().window().maximize();
+		String s=wd.findElement(By.xpath("//body")).getText();
+		System.out.println("Text in child window is="+" "+s);
+
+System.out.println("complete");
+		
+		
+		
+
+	}
+
+}

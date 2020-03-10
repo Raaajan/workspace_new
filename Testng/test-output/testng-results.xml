@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="678" started-at="2018-06-16T10:38:48Z" finished-at="2018-06-16T10:38:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="678" started-at="2018-06-16T10:38:48Z" finished-at="2018-06-16T10:38:48Z">
+      <class name="d.Login_dataproviderwithexcel">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-06-16T16:08:48Z" finished-at="2018-06-16T16:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="Login" duration-ms="6" started-at="2018-06-16T16:08:48Z" data-provider="dp" finished-at="2018-06-16T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test case Name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Passoword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RunMode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="Login" duration-ms="1" started-at="2018-06-16T16:08:48Z" data-provider="dp" finished-at="2018-06-16T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test902@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="Login" duration-ms="2" started-at="2018-06-16T16:08:48Z" data-provider="dp" finished-at="2018-06-16T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test902@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="Login" duration-ms="1" started-at="2018-06-16T16:08:48Z" data-provider="dp" finished-at="2018-06-16T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test902@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="Login" duration-ms="1" started-at="2018-06-16T16:08:48Z" data-provider="dp" finished-at="2018-06-16T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test902@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="Login" duration-ms="1" started-at="2018-06-16T16:08:48Z" data-provider="dp" finished-at="2018-06-16T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test902@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:d.Login_dataproviderwithexcel@bd1b6a]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-16T16:08:48Z" finished-at="2018-06-16T16:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- d.Login_dataproviderwithexcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

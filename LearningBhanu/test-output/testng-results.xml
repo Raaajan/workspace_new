@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26605" started-at="2018-05-27T16:17:02Z" finished-at="2018-05-27T16:17:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26605" started-at="2018-05-27T16:17:02Z" finished-at="2018-05-27T16:17:28Z">
+      <class name="lb.NewTest_Sc">
+        <test-method status="PASS" signature="Base()[pri:0, instance:lb.NewTest_Sc@1565ec2]" name="Base" is-config="true" duration-ms="3193" started-at="2018-05-27T21:47:02Z" finished-at="2018-05-27T21:47:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:lb.NewTest_Sc@1565ec2]" name="Login" duration-ms="23374" started-at="2018-05-27T21:47:05Z" finished-at="2018-05-27T21:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- lb.NewTest_Sc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

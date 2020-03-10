@@ -1,0 +1,19 @@
+package practice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Switch {
+
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver","E:\\automation\\chromedriver\\chromedriver.exe");
+		WebDriver wd= new ChromeDriver();
+		wd.get("http://toolsqa.wpengine.com/automation-practice-switch-windows/");
+		String mw= wd.getWindowHandle();
+		System.out.println("main window"+" "+mw);
+		
+
+	}
+
+}

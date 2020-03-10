@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17930" started-at="2018-03-04T15:31:47Z" finished-at="2018-03-04T15:32:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17930" started-at="2018-03-04T15:31:47Z" finished-at="2018-03-04T15:32:05Z">
+      <class name="pom2.login">
+        <test-method status="PASS" signature="Newtours()[pri:0, instance:pom2.login@7fa833]" name="Newtours" duration-ms="17908" started-at="2018-03-04T21:01:48Z" finished-at="2018-03-04T21:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Newtours -->
+      </class> <!-- pom2.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

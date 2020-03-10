@@ -1,0 +1,6 @@
+2018-01-27 18:48:08,885 [main] INFO Log4jdemo - Browser Opened
+2018-01-27 18:48:09,046 [main] INFO Log4jdemo - Implicit wait given
+2018-01-27 18:48:15,142 [main] INFO Log4jdemo - Url opened
+2018-01-27 18:48:33,948 [main] INFO Log4jdemo - clicked on selenium
+2018-01-27 18:48:34,157 [main] INFO Log4jdemo - store text
+2018-01-27 18:48:34,158 [main] INFO Log4jdemo - print text

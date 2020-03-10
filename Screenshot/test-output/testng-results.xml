@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31203" started-at="2018-05-27T16:40:15Z" finished-at="2018-05-27T16:40:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31203" started-at="2018-05-27T16:40:15Z" finished-at="2018-05-27T16:40:46Z">
+      <class name="screenshot.Screenshot">
+        <test-method status="PASS" signature="sc()[pri:0, instance:screenshot.Screenshot@1933fd1]" name="sc" duration-ms="31165" started-at="2018-05-27T22:10:15Z" finished-at="2018-05-27T22:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc -->
+      </class> <!-- screenshot.Screenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

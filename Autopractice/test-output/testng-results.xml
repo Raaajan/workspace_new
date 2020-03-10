@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12442" started-at="2018-03-04T07:11:21Z" finished-at="2018-03-04T07:11:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12442" started-at="2018-03-04T07:11:21Z" finished-at="2018-03-04T07:11:34Z">
+      <class name="autopractice.Writeexcel">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:autopractice.Writeexcel@d25987]" name="beforetest" is-config="true" duration-ms="12230" started-at="2018-03-04T12:41:21Z" finished-at="2018-03-04T12:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:autopractice.Writeexcel@d25987]" name="login" duration-ms="0" started-at="2018-03-04T12:41:34Z" data-provider="data" finished-at="2018-03-04T12:41:34Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:162)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.EmptyFileException: The supplied file was empty (zero bytes long)
+	at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:74)
+	at org.apache.poi.util.IOUtils.peekFirst8Bytes(IOUtils.java:57)
+	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:135)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:175)
+	at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:209)
+	at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:98)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:324)
+	at org.apache.poi.util.PackageHelper.open(PackageHelper.java:37)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:295)
+	at autopractice.Writeexcel.data(Writeexcel.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:136)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:autopractice.Writeexcel@d25987]" name="aftertest" is-config="true" duration-ms="137" started-at="2018-03-04T12:41:34Z" finished-at="2018-03-04T12:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- autopractice.Writeexcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

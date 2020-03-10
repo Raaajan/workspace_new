@@ -1,0 +1,41 @@
+package d;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+
+public class Login_dataproviderwithexcel 
+{
+	WebDriver driver;
+  @Test(dataProvider = "dp")
+  public void f(Integer n, String s) {
+  }
+
+  @DataProvider
+  public Object[][] dp() {
+    return new Object[][] {
+      new Object[] { 1, "a" },
+      new Object[] { 2, "b" },
+    };
+  }
+  @BeforeTest
+  public void beforeTest() throws InterruptedException 
+  {		
+	  System.setProperty("webdriver.chrome.driver","E:\\automation\\chromedriver\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+	  driver.get("http://automationpractice.com/index.php");
+
+  }
+
+  @AfterTest
+  public void afterTest() 
+  {
+	  driver.close();
+  }
+
+}

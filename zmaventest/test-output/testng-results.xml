@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32628" started-at="2018-06-16T09:10:28Z" finished-at="2018-06-16T09:11:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32628" started-at="2018-06-16T09:10:28Z" finished-at="2018-06-16T09:11:01Z">
+      <class name="TestScript.Exceldatareadingwithdataprovider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestScript.Exceldatareadingwithdataprovider@18355a8]" name="setup" is-config="true" duration-ms="32451" started-at="2018-06-16T14:40:28Z" finished-at="2018-06-16T14:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testlogindata(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScript.Exceldatareadingwithdataprovider@18355a8]" name="testlogindata" duration-ms="121" started-at="2018-06-16T14:41:01Z" data-provider="Logindata" finished-at="2018-06-16T14:41:01Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: testlogindata([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testlogindata([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: []
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:52)
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1278)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1171)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogindata -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestScript.Exceldatareadingwithdataprovider@18355a8]" name="teardown" is-config="true" duration-ms="13" started-at="2018-06-16T14:41:01Z" finished-at="2018-06-16T14:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestScript.Exceldatareadingwithdataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

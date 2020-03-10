@@ -1,0 +1,9 @@
+package ng;
+
+import org.testng.annotations.Test;
+
+public class Dependent {
+  @Test
+  public void f() {
+  }
+}
